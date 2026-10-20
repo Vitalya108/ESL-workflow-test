@@ -12,7 +12,7 @@ vector_3d sub(const vector_3d* v1, const vector_3d* v2) {
     vector_3d res;
     res.x = v1->x - v2->x;
     res.y = v1->y - v2->y;
-    reы.z = v1->z - v2->z;
+    res.z = v1->z - v2->z;
     return res;
 }
 
