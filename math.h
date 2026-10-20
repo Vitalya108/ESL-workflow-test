@@ -2,7 +2,7 @@ typedef struct {
     double x;
     double y;
     double z;
-} vector_3d
+} vector_3d;
 
 vector_3d sum(const vector_3d* v1, const vector_3d* v2);
 
