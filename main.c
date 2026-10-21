@@ -17,7 +17,6 @@ int main() {
     vector_3d cross_res = cross(&v1, &v2);
     double dot_res = dot(&v1, &v2);
 
-    printf("sum = %f %f %f \n sub = %f %f %f \n cross = %f %f %f \n dot = %f", sum_res.x, sum_res.y,
-         sum_res.z, sub_res.x, sub_res.y, sub_res.z, cross_res.x, cross_res.y, cross_res.z, dot);
+    printf("sum = %f %f %f \n sub = %f %f %f \n cross = %f %f %f \n dot = %f", sum_res.x, sum_res.y, sum_res.z, sub_res.x, sub_res.y, sub_res.z, cross_res.x, cross_res.y, cross_res.z, dot_res);
     return 0;
 }
